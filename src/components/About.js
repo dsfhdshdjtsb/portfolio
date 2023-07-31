@@ -17,7 +17,7 @@ export default function About(){
             
             <div className="Content">
                 <h2>About me</h2>
-                <p>I am a first year student studying Computer Science. I Have a passion
+                <p>I am a first year student studying Computer Science. I have a passion
                 for game design, web development, web3, and machine learning. Basically anything
                 related to programming</p>
                 
@@ -27,11 +27,11 @@ export default function About(){
                     <img src={JavaIcon} id="javaIcon"></img>
                     <img src={HTMLIcon}></img>
                     <img src={CSSIcon}></img>
-                    <div id= "lineBreak"></div>
                     <img src={JavascriptIcon}></img>
                     <img src={ReactIcon}></img>
                     <img src={GitIcon}></img>
                 </div>
+                
             </div>
             <div className="imageAndSocials">
                 <img id="portrait" src= {portrait}></img>

@@ -5,8 +5,9 @@ export default function Header(){
 
     React.useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ['CS major at Georgia Tech^5000', 'programmer^1000', 'web developer^1000', 'minecraft modder^1000'],
+            strings: ['CS major at Georgia Tech^2000', 'programmer^1000', 'web developer^1000', 'minecraft modder^1000'],
             typeSpeed: 50,
+            backSpeed:25,
             loop: true
         });
 
