@@ -19,9 +19,6 @@ export default function Project(props){
     React.useEffect(()=>{
         if(isIntersecting) {
             ref.current.querySelectorAll(".Slide").forEach((el) => {
-                var r = document.querySelector(':root');
-                document.documentElement.style.setProperty('--delay', props.delay)
-                console.log(getComputedStyle(r).getPropertyValue('--delay') )
                 
                 el.classList.add("slide-in");
             });

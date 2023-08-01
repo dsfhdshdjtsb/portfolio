@@ -4,6 +4,7 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Inter";
+
   background-color: #fefaf0;
   overflow-x: hidden;
 }
@@ -71,12 +72,35 @@ body {
 }
 .About h2 {
   padding-top: 50px;
+  position: relative;
+  z-index: 3;
 }
 .About h2,
 .About p {
   width: 600px;
   margin-top: 0;
 }
+#AboutMe::before {
+  background-color: #008896;
+  position: absolute;
+  content: "";
+  height: 0.7rem;
+  width: 9.5rem;
+  z-index: -1;
+  bottom: 0;
+  transform: translate(-0.3rem, -0.1rem);
+}
+#MySkills::before {
+  background-color: #008896;
+  position: absolute;
+  content: "";
+  height: 0.7rem;
+  width: 8.75rem;
+  z-index: -1;
+  bottom: 0;
+  transform: translate(-0.3rem, 0rem);
+}
+
 .About .LogoImages img {
   height: 80px;
   width: auto;
@@ -137,11 +161,20 @@ body {
   background-color: #fefaf0;
 }
 .Projects h2 {
-  font-size: 2rem;
+  font-size: 4rem;
+  position: relative;
+}
+.Projects h2::before {
+  background-color: #008896;
+  position: absolute;
+  content: "";
+  height: 1.75rem;
+  width: 24.2rem;
+  z-index: -1;
+  bottom: 0;
+  transform: translate(-0.5rem, 0.1rem);
 }
 
-.ProjectImages {
-}
 .Projects img {
   width: 34vw;
   height: 17vw;

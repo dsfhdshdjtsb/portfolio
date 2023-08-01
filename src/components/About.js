@@ -16,13 +16,13 @@ export default function About(){
         <div className="About">
             
             <div className="Content">
-                <h2>About me</h2>
+                <h2 id="AboutMe">About me</h2>
                 <p>I am a first year student studying Computer Science. I have a passion
                 for game design, web development, web3, and machine learning. Basically anything
                 related to programming</p>
                 
 
-                <h2>My Skills</h2>
+                <h2 id="MySkills">My Skills</h2>
                 <div className="LogoImages">
                     <img src={JavaIcon} id="javaIcon"></img>
                     <img src={HTMLIcon}></img>
