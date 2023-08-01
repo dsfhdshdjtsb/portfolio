@@ -10,7 +10,7 @@ import Github from "../images/Github.png"
 import Linkedin from "../images/Linkedin.png"
 import Outlook from "../images/Outlook.png"
 import portrait from "../images/portrait.jpg"
-
+import React from "react"
 export default function About(){
     return(
         <div className="About">
@@ -34,7 +34,7 @@ export default function About(){
                 
             </div>
             <div className="imageAndSocials">
-                <img id="portrait" src= {portrait}></img>
+                <img id="portrait" loading="lazy" src= {portrait}></img>
                 <div className="Socials">
                     <a href='https://github.com/dsfhdshdjtsb' target="_blank"><img src={Github}/></a>
                     <a href='https://www.linkedin.com/in/nicholas-suh-5ba013274/' target="_blank"><img src={Linkedin}/></a>
