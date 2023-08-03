@@ -311,6 +311,7 @@ a {
 }
 .ProjectEntry {
   display: flex;
+
   margin-left: 20vw;
   margin-top: 5vw;
 }
@@ -536,6 +537,12 @@ video {
   .Landing img,
   h1 {
     margin-top: 10vw;
+  }
+}
+@media (max-width: 500px) {
+  .Landing img,
+  h1 {
+    margin-top: 15vw;
   }
 }
 

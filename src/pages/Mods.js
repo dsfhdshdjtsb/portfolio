@@ -28,7 +28,7 @@ export default function Mods(){
             <ProjectEntry title="ArmorAbilities" name="Armor Abilities" downloads="1k" roles="Creator and Developer" technologies="Java, Fabric and Forge Modloader" dates="June 2023-Present"
                 desc="While Combat Enchantments merely enhances the existing combat system, Armor Abilities introduces an entirely new system of abilities
                 activated through keybinds. As such, Armor Abilities is a highly technical mod, making modifications to the game's rendering system, 
-                adding a user interface, and utilizing packets to sync data between client and server. Two distinct version of the mod were created for
+                adding a new user interface, and utilizing packets to sync data between client and server. Two distinct version of the mod were created for
                 each of the major modloaders (forge and fabric). Both iterations of the source code are publicly hosted on GitHub. While it may have few
                 downloads now due to its young age, Armor Abilities is a project I plan to continue working on in the future."
                 github={"https://github.com/dsfhdshdjtsb/ArmorAbilities"} github2={"https://github.com/dsfhdshdjtsb/ArmorAbilitesForge"} project={"https://www.curseforge.com/minecraft/mc-mods/armor-abilities"}
