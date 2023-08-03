@@ -6,13 +6,9 @@ export default function Navbar(){
         // create a div with a class of navbar that has my Nick Suh in the left corner and a React link to the homepage on the right corner
         <div className="Navbar">
             <div className="NickSuh">
-                <h1>Nick Suh</h1>
+                <Link to="/"><h1>Nick Suh</h1></Link>
             </div>
-            <div className="Links">
-                <Link to="/">Home</Link>
 
-
-            </div>
         </div>
             
 
