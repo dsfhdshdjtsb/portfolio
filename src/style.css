@@ -314,6 +314,7 @@ a {
 
   margin-left: 20vw;
   margin-top: 5vw;
+  animation: transitionIn 1s;
 }
 .ProjectEntry h2 {
   font-size: 4rem;
@@ -375,6 +376,16 @@ video {
 }
 .Spacer {
   margin: 5vw;
+}
+/*FOOTER CSS*/
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  background-image: linear-gradient(to bottom right, #e1c16e, #ffefca);
+}
+.Footer p {
 }
 
 @media (max-width: 1500px) {

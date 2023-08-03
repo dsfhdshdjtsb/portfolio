@@ -6,6 +6,7 @@ import { BarLoader } from "react-spinners";
 
 import React, { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
+import Footer from "../components/Footer";
 
 export default function Home(){
     const [loading, setLoading] = React.useState(false)
@@ -37,6 +38,7 @@ export default function Home(){
                 <div class="Diagonal"></div>
                 <About />
                 <Projects />
+                
             </div>
             )}
         </div>
