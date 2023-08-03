@@ -20,7 +20,7 @@ export default function Mods(){
             <ProjectEntry title="CombatEnchantments" name="Combat Enchants" downloads="200k" roles="Creator and Developer" technologies="Java, Fabric Modloader" dates="August 2021-Present" 
                 desc="With over 200,000 total downloads, Combat Enchantments is my most downloaded mod and showcases my ability to successfully handle
                 large, longterm projects. Written entirely in Java and utilizing the Fabric modloader, Combat Enchantments introduces more than 30 
-                meticulously balanced new enchantments, enhancing the game's combat system without alienating veteran players. The mod's code is publicly 
+                meticulously balanced enchantments, enhancing the game's combat system without alienating veteran players. The mod's code is publicly 
                 hosted on GitHub, providing a platform for players and developers to contribute through suggestions, bug reports, and pull requests.  
                 To date, there have been 10 pull requests, 17 bug reports, and a countless number of suggestions made by the community" 
                 github={"https://github.com/dsfhdshdjtsb/enchantments"} youtube={"https://youtu.be/6Gmo_DYAwMw"} project="https://www.curseforge.com/minecraft/mc-mods/combat-enchantments"
