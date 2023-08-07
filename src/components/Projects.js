@@ -4,6 +4,7 @@ import Metruhnome from "../images/Metruhnome.png"
 import Portfolio from "../images/Portfolio.png"
 import React from "react"
 import Project from "./Project"
+import TherapalImg from "../images/Therapal.jpg"
 
 export default function Projects(){
     
@@ -17,7 +18,7 @@ export default function Projects(){
             <div className="Images">
                 <Project img={Curseforge} page= "/mods" text={"Minecraft Mods"} delay="0" id="ModsImage"/>
                 <Project img={RoadCode} page= "/roadcode" text={"Roadcode"} delay="1000" id="RoadcodeImage"/>
-                <Project img={Portfolio} page= "/portfolio" text={"Portfolio Website"} delay="0" id="PortfolioImage" />
+                <Project img={TherapalImg} page= "/therapal" text={"TheraPal"} delay="0" id="TherapalImage" />
                 <Project img={Metruhnome} page= "/metruhnome" text={"Metruhnome"} delay="0" id="MetruhnomeImage"/>
                 
             </div>
