@@ -11,6 +11,8 @@ import Linkedin from "../images/Linkedin.png"
 import Outlook from "../images/Outlook.png"
 import portrait from "../images/portrait.jpg"
 import React from "react"
+import Resume from "../media/Resume.pdf"
+
 export default function About(){
     return(
         <div className="About">
@@ -35,6 +37,7 @@ export default function About(){
             </div>
             <div className="imageAndSocials">
                 <img id="portrait" loading="lazy" src= {portrait}></img>
+                
                 <div className="Socials">
                     <a href='https://github.com/dsfhdshdjtsb' target="_blank"><img src={Github}/></a>
                     <a href='https://www.linkedin.com/in/nicholas-suh-5ba013274/' target="_blank"><img src={Linkedin}/></a>
@@ -42,6 +45,8 @@ export default function About(){
                     <a href='https://www.instagram.com/nick_suh/' target="_blank"><img src={Instagram}/></a>
                     <a href='https://discordapp.com/users/395005138000936960' target="_blank"><img src={Discord}/></a>
                 </div>
+                <a href={Resume}><button className="Resume">Resume</button></a>
+                
             </div>
 
             
