@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "1fa83925b704e018270a",
-    "url": "/static/css/main.96afee24.chunk.css"
+    "revision": "56f44b5d64bdc1687189",
+    "url": "/static/css/main.0970cc1d.chunk.css"
   },
   {
-    "revision": "1fa83925b704e018270a",
-    "url": "/static/js/main.1fa83925.chunk.js"
+    "revision": "56f44b5d64bdc1687189",
+    "url": "/static/js/main.56f44b5d.chunk.js"
   },
   {
-    "revision": "ad746f90ebe3ab5e5ac3",
-    "url": "/static/js/1.ad746f90.chunk.js"
+    "revision": "4bcaedad4dc8b09d4b37",
+    "url": "/static/js/1.4bcaedad.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -72,6 +72,10 @@ self.__precacheManifest = [
     "url": "/static/media/portrait.292fe85c.jpg"
   },
   {
+    "revision": "2cff47787be4c72a1f7a4f3a1706c21f",
+    "url": "/static/media/Resume.2cff4778.pdf"
+  },
+  {
     "revision": "068a1ea7026a2b7b078ed940ab9cede7",
     "url": "/static/media/explodedemo.068a1ea7.mp4"
   },
@@ -84,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/LifestealDemo.c886d1ac.png"
   },
   {
-    "revision": "08fd6868cf64687bf352d301a5cb58bc",
+    "revision": "60c8774ed1d4544b7f7bae37bc9c0b9a",
     "url": "/index.html"
   }
 ];
