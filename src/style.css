@@ -179,8 +179,7 @@ a {
 }
 .Resume {
   margin-top: 0.5rem;
-  margin-left: 10vw;
-  margin-right: 10vw;
+
   cursor: pointer;
   outline: 0;
   display: inline-block;
@@ -548,6 +547,8 @@ video {
   .Resume {
     width: 80vw;
     max-width: 400px;
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
 
   .About .LogoImages {
