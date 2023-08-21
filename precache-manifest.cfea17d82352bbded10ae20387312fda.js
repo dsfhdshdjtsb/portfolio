@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9fb05d545128e829574e",
+    "revision": "de1fdf700bc2bbf6fc80",
     "url": "/static/css/main.aba52730.chunk.css"
   },
   {
-    "revision": "9fb05d545128e829574e",
-    "url": "/static/js/main.11160b55.chunk.js"
+    "revision": "de1fdf700bc2bbf6fc80",
+    "url": "/static/js/main.2b2b2630.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/LifestealDemo.c886d1ac.png"
   },
   {
-    "revision": "97bbbc49ecc6cdb1dcbf2fade76c21e7",
+    "revision": "6e61d9852f038131bc1fe7ff9f2c408f",
     "url": "/index.html"
   }
 ];
