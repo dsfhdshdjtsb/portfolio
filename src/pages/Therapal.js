@@ -15,7 +15,7 @@ export default function Therapal(){
                 <h1>Therapal</h1>
             </div>
             <ProjectEntry title="TherapalEntry" name="Omegle with GPT-3" awards="First Place" roles="Backend Dev"
-                technologies="Javascript, React, Firebase, GPT-3, MaterialUI, node.js" dates="August 4-6, 2023" github="/"
+                technologies="Javascript, React, Firebase, GPT-3, MaterialUI, node.js" dates="August 4-6, 2023" github="https://github.com/kYpranite/Therapal"
                 youtube="https://www.youtube.com/watch?v=ZHJzjuDPha8" project="https://oyster-app-cfsz2.ondigitalocean.app/" desc="Created during a 48 hour hackathon, Therapal is a web app that
                 connects users with similar mental health challenges. Users select their issues, such as depression or anxiety, and are paired to share
                 experiences and offer mutual aid through a chat interface inspired by Omegle. At any time, users can request a response from GPT-3 to help them continue the conversation, 
