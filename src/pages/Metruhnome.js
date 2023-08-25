@@ -13,7 +13,7 @@ export default function Metruhnome(){
             <div className = "Landing">
                 <img src={MetruhnomeImg}/>
                 <h1>Metruhnome</h1>
-            </div>"
+            </div>
             <ProjectEntry title="MetruhnomeEntry" name="A Syncronized Metronome" roles="Backend Dev"
                 technologies="Javascript, HTML, CSS, NTP, Node.js," dates="May-September 2022" github="https://github.com/dsfhdshdjtsb/synced-metronome"
                 project="http://www.metruhnome.com/" desc="Metruhnome is a web app that allows users to syncronize their metronomes. Simply enter the BPM you want to play at, 
