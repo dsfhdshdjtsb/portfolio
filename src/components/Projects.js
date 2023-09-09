@@ -14,12 +14,20 @@ export default function Projects(){
 
     return(
         <div className="Projects">
-            <h2>My Projects</h2>
+            <div className="ProjectsTitle">
+                <h2>My Projects</h2>
+            </div>
+            
             <div className="Images">
-                <Project img={Curseforge} page= "/mods" text={"Minecraft Mods"} delay="0" id="ModsImage"/>
-                <Project img={RoadCode} page= "/roadcode" text={"Roadcode"} delay="1000" id="RoadcodeImage"/>
-                <Project img={TherapalImg} page= "/therapal" text={"TheraPal"} delay="0" id="TherapalImage" />
-                <Project img={Metruhnome} page= "/metruhnome" text={"Metruhnome"} delay="0" id="MetruhnomeImage"/>
+                <div className="Left">
+                    <Project img={Curseforge} page= "/mods" text={"Minecraft Mods"} delay="0" className="ModsImage"/>
+                    <Project img={TherapalImg} page= "/therapal" text={"TheraPal"} delay="0" className="TherapalImage" />
+                </div>
+                <div className="Right">
+                    <Project img={RoadCode} page= "/roadcode" text={"Roadcode"} delay="1000" className="RoadcodeImage"/>
+                    <Project img={Metruhnome} page= "/metruhnome" text={"Metruhnome"} delay="0" className="MetruhnomeImage"/>
+                </div>
+                
                 
             </div>
             

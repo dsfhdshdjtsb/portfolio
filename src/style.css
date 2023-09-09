@@ -4,9 +4,8 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Inter";
-
   background-color: #fefaf0;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 .Diagonal {
   width: 0;
@@ -38,7 +37,6 @@ body {
   justify-content: space-between;
   align-items: center;
   align-content: center;
-
   box-shadow: 0px 0px 10px 0px rgba(124, 107, 11, 0.75);
 }
 .Navbar h1 {
@@ -69,12 +67,11 @@ a {
   height: 60vh;
   display: flex;
   align-items: center;
-
   border: none;
-
   position: fixed;
   top: 0;
   width: 100%;
+  padding-bottom: 0;
 }
 .Header .Text {
   margin-left: 15vw;
@@ -105,6 +102,7 @@ a {
   background-color: #fefaf0; /*#FEFAF0*/
   position: relative;
   z-index: 2;
+  padding-bottom: 0;
 }
 .About h2 {
   padding-top: 50px;
@@ -160,6 +158,7 @@ a {
   float: right;
   position: relative;
   bottom: 400px;
+  
 }
 .Socials img {
   width: 60px;
@@ -179,7 +178,6 @@ a {
 }
 .Resume {
   margin-top: 0.5rem;
-
   cursor: pointer;
   outline: 0;
   display: inline-block;
@@ -215,6 +213,28 @@ a {
   width: 600px;
   background-color: #fefaf0;
   animation: transitionIn 1s;
+  
+}
+.ProjectsTitle {
+  background-color:#fefaf0 ;
+  position: sticky;
+  top: 0;
+  height:100vh;
+  
+  display:flex;
+  flex-direction: column;
+  animation: fadeIn;
+  
+}
+.ProjectsTitle h2{
+  margin:auto;
+  font-size: 5rem;
+  position: relative;
+  
+}
+.spacerTest {
+  height:100vh;
+  background-color: #008896;
 }
 /* PROJECTS CSS*/
 .Projects {
@@ -223,34 +243,38 @@ a {
   position: relative;
   z-index: 3;
   background-color: #fefaf0;
+  margin-bottom: 0;
 }
+
 .Projects h2 {
-  font-size: 4rem;
+  font-size: 6rem;
   position: relative;
 }
 .Projects h2::before {
-  background-color: #008896;
+  background-color: #e1c16e;
   position: absolute;
   content: "";
-  height: 1.75rem;
-  width: 24.2rem;
+  height: 15rem;
+  width: 20rem;
   z-index: -1;
   bottom: 0;
-  transform: translate(-0.5rem, 0.1rem);
+  transform: translate(18rem, 1rem);
 }
 
 .Projects img {
   width: 34vw;
-  height: 17vw;
+  height: 20vw;
   object-fit: cover;
   margin-bottom: 1vw;
+  
 }
+
 .overlay {
   position: absolute;
   bottom: 0;
   left: 100%;
   right: 0;
-  background-color: #e1c16e;
+  background-image: linear-gradient(to bottom, #e1c16e, #f1d898);
   overflow: hidden;
   width: 0;
   height: 100%;
@@ -259,7 +283,7 @@ a {
 .Slide {
   position: relative;
   width: fit-content;
-  height: 17vw;
+  height: 20vw;
   margin-bottom: 1vw;
   padding: 0;
 }
@@ -281,23 +305,38 @@ a {
 }
 .Images {
   display: flex;
-  flex-wrap: wrap;
+  
   justify-content: space-between;
-  margin-left: 15vw;
-  margin-right: 15vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding-bottom: 500px;
+  position: relative;
+  bottom:100px;
+}
+.Left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 110vh;
+}
+.Right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 75px;
+  height: 110vh;
 }
 /*PROJECT SLIDE CSS*/
 :root {
   --delay: 0;
 }
 .Slide {
-  transform: translateX(-150%);
-  opacity: 0;
+  
   transition: all 1s;
   transition-delay: var(--delay);
 }
 .slide-in {
-  transform: translateX(0) !important;
+  transform: translateY(0) !important;
   opacity: 1 !important;
   transition: all 1s;
   transition-delay: var(--delay);
@@ -443,7 +482,7 @@ video {
     width: 90vw;
   }
   .Slide {
-    height: 21vh;
+    height: auto;
   }
   .Images {
     margin-left: 5vw;
@@ -451,7 +490,7 @@ video {
   }
   .Projects img {
     width: 42vw;
-    height: 21vh;
+    height: 33vh;
   }
   /*Minecraft Mods*/
   .Mods > h1 {
@@ -566,6 +605,9 @@ video {
         margin-left: 5vw;
         margin-right: 5vw;
     } */
+    .Right {
+      margin-top: 0px;
+    }
   .Projects img {
     width: 90vw;
     height: 45vh;
