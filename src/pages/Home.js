@@ -34,10 +34,11 @@ export default function Home(){
                 </div>
             ) : (
             <div>
-                <Header />
-                <div class="Diagonal"></div>
-                <About />
-                <Projects />
+                
+                    <Header />
+                    <div class="Diagonal"></div>
+                    <About />
+                    <Projects />
                 
             </div>
             )}

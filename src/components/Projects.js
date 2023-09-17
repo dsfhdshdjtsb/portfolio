@@ -5,13 +5,9 @@ import Portfolio from "../images/Portfolio.png"
 import React from "react"
 import Project from "./Project"
 import TherapalImg from "../images/Therapal.jpg"
+import AvImg from "../images/Av.png"
 
 export default function Projects(){
-    
-    
-
-
-
     return(
         <div className="Projects">
             <div className="ProjectsTitle">
@@ -22,6 +18,7 @@ export default function Projects(){
                 <div className="Left">
                     <Project img={Curseforge} page= "/mods" text={"Minecraft Mods"} delay="0" className="ModsImage"/>
                     <Project img={TherapalImg} page= "/therapal" text={"TheraPal"} delay="0" className="TherapalImage" />
+                    <Project img={AvImg} page= "/astraeus" text={"Astraeus View"} delay="0" className="AvImage" />
                 </div>
                 <div className="Right">
                     <Project img={RoadCode} page= "/roadcode" text={"Roadcode"} delay="1000" className="RoadcodeImage"/>

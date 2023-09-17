@@ -5,6 +5,8 @@ import React from "react";
 import Metruhnome from "./pages/Metruhnome";
 import Therapal from "./pages/Therapal";
 import Roadcode from "./pages/Roadcode";
+import Astraeus from "./pages/Astraeus";
+
 export default function App(){
     return(
         <Routes>
@@ -13,6 +15,7 @@ export default function App(){
             <Route path="/roadcode" element={<Roadcode />} />
             <Route path="/therapal" element={<Therapal />} />
             <Route path="/metruhnome" element={<Metruhnome />} />
+            <Route path="/astraeus" element={<Astraeus />} />
         </Routes>        
     )
 }
