@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1d7b8bd3953c69c59cc5",
-    "url": "/static/css/main.409be20d.chunk.css"
+    "revision": "9885d193c70dcb75a5ee",
+    "url": "/static/css/main.24afcaef.chunk.css"
   },
   {
-    "revision": "1d7b8bd3953c69c59cc5",
-    "url": "/static/js/main.ab84453a.chunk.js"
+    "revision": "9885d193c70dcb75a5ee",
+    "url": "/static/js/main.6e9cfa30.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "url": "/static/media/portrait.292fe85c.jpg"
   },
   {
-    "revision": "541b382a8a21d1227a46bfe8e6f5624a",
-    "url": "/static/media/Resume.541b382a.pdf"
+    "revision": "c446fd843b9dde206a61b00afc29c419",
+    "url": "/static/media/Resume.c446fd84.pdf"
   },
   {
     "revision": "068a1ea7026a2b7b078ed940ab9cede7",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/LifestealDemo.c886d1ac.png"
   },
   {
-    "revision": "ca19b54a1028ff673aa25d47e7a62950",
+    "revision": "9ea1b6feed22830d1f2ab6283d0acbf1",
     "url": "/index.html"
   }
 ];
