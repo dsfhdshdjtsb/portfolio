@@ -157,7 +157,7 @@ a {
   flex-direction: column;
   float: right;
   position: relative;
-  bottom: 400px;
+  bottom: min(50vh, 400px);
   
 }
 .Socials img {
@@ -263,7 +263,7 @@ a {
 
 .Projects img {
   width: 40vw;
-  height: 25vw;
+  height: 40vh;
   object-fit: cover;
   margin-bottom: 1vw; 
 }
@@ -290,7 +290,8 @@ a {
 .Slide {
   position: relative;
   width: fit-content;
-  height: 25vw;
+  height: 30vh;
+  width: 40vw;
   margin-bottom: 1vw;
   padding: 0;
   transform: translateZ(-100px);
@@ -371,7 +372,7 @@ a {
   margin-right: 10vw;
   margin-top: 5vw;
 }
-.Landing img {
+.Landing > img {
   width: 80vw;
   animation: fadeIn 2s;
 }
@@ -500,17 +501,17 @@ video {
     padding-right: 5vw;
     width: 90vw;
   }
-  .Slide {
+  /* .Slide {
     height: auto;
-  }
+  } */
   .Images {
     margin-left: 5vw;
     margin-right: 5vw;
   }
-  .Projects img {
+  /* .Projects img {
     width: 42vw;
     height: 33vh;
-  }
+  } */
   /*Minecraft Mods*/
   .Mods > h1 {
     margin-top: 5vh;
@@ -617,9 +618,9 @@ video {
     flex-direction: column;
     align-items: center;
   }
-  .Slide {
+  /* .Slide {
     height: 45vh;
-  }
+  } */
   /* .Images{
         margin-left: 5vw;
         margin-right: 5vw;
