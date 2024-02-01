@@ -298,13 +298,13 @@ a {
 .ProjectSlide {
   /* margin-bottom: 1rem; */
   width: min(50vw, 1500px);
-  transition: 0.5s;
+  transition: 0.3s;
   padding: 1rem;
 
 }
 .ProjectSlide:hover {
   background-color: #ebdab0;
-  transition: 0.5s;
+  transition: 0.3s;
   border-radius: 10px;
 }
 .ProjectSlide .Subheading {
@@ -324,12 +324,19 @@ a {
 .ProjectSlide .Description {
   
 }
-.FrameWrapper {
+#ProjectsSection{
+  position: relative;
+}
+#PFrameWrapper {
   display: flex;
+  justify-content: space-between;
+}
+#FrameWrapper {
+  
   flex-direction: column;
   background-color: blue;
   width: 400px;
-  height: 600px;
+  height: 90vh;
   position: relative;
   z-index: 3;
   float:left
