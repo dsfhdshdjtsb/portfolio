@@ -332,15 +332,22 @@ a {
   justify-content: space-between;
 }
 #FrameWrapper {
+  margin:0;
+  top: 0vh;
+  right: 0vw;
+  z-index: 3;
+  float:left;
+  padding: 5vh;
+  height: 90vh;
+  position:sticky;
   
-  flex-direction: column;
-  background-color: blue;
+}
+#Frame {
   width: 400px;
   height: 90vh;
-  position: relative;
-  z-index: 3;
-  float:left
+  background-color: #008896;
 }
+
 /*MODS PAGE CSS*/
 .Landing {
   position: relative;
