@@ -346,8 +346,30 @@ a {
   width: 400px;
   height: 90vh;
   background-color: #008896;
+  border-radius: 15px;
 }
 
+#Frame > img {
+  width: 400px;
+  height: 90vh;
+  object-fit: cover;
+  border-radius: 15px;
+  position:absolute;
+  transition: 0.3s;
+}
+
+#Frame > img:not(#CenchantsImg) {
+  max-height: 0;
+  z-index: 1;
+}
+#CenchantsImg {
+  z-index: 0;
+
+}
+/* #Cenchants:hover ~ #Frame {
+  background-color: blue;
+
+} */
 /*MODS PAGE CSS*/
 .Landing {
   position: relative;

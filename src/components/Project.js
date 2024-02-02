@@ -3,22 +3,22 @@ import React from "react"
 import { Link } from "react-router-dom";
 export default function Project(props){
     return (
-        <Link to={props.link}>
+        <Link id={props.id} to={props.link}>
             <div className="ProjectSlide">
             {/* <div className="Divider"></div> */}
             <div className="DateWrapper">
                 <div className="ProjectInfo">
                     <div>
-                        <h4>Downloads</h4>
-                        <p>200k</p>
+                        <h4>{props.subh1}</h4>
+                        <p>{props.subp1}</p>
                     </div>
                     <div>
-                        <h4>Technologies</h4>
-                        <p>Java, Fabric Modloader</p>
+                        <h4>{props.subh2}</h4>
+                        <p>{props.subp2}</p>
                     </div>
                     <div>
-                        <h4>Dates</h4>
-                        <p>August 2021 - Present</p>
+                        <h4>{props.subh3}</h4>
+                        <p>{props.subp3}</p>
                     </div>
                 </div>
                 
