@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.11ec6654.css",
-    "main.js": "/static/js/main.13138d2e.js",
+    "main.css": "/static/css/main.4bef4b48.css",
+    "main.js": "/static/js/main.f0f6eed5.js",
+    "static/media/CE.gif": "/static/media/CE.7fe6f5ab61da09c783ad.gif",
+    "static/media/AA.gif": "/static/media/AA.43be51725951b402c197.gif",
     "static/media/explodedemo.mp4": "/static/media/explodedemo.5c35688aa4decf893181.mp4",
     "static/media/LifestealDemo.png": "/static/media/LifestealDemo.386cacf038dd5e9f2773.png",
     "static/media/portrait.jpg": "/static/media/portrait.a985c684145723fffaf0.jpg",
@@ -9,13 +11,14 @@
     "static/media/Portfolio.png": "/static/media/Portfolio.d114832d8239b676a4a7.png",
     "static/media/Instagram.png": "/static/media/Instagram.e291349581f33a4f4b3e.png",
     "static/media/Av.png": "/static/media/Av.2fe878242d282eebb864.png",
-    "static/media/Resume.pdf": "/static/media/Resume.dc4ff9afcea210cb37a9.pdf",
     "static/media/Av.gif": "/static/media/Av.d69f6eac3f00cf9f2169.gif",
+    "static/media/Resume.pdf": "/static/media/Resume.1ef08e1d77aac33bd843.pdf",
     "static/media/Github.png": "/static/media/Github.4bb497e598c121a691f7.png",
     "static/media/Discord.png": "/static/media/Discord.5a9aea2bb59bd1a2b932.png",
     "static/media/JavaIcon.png": "/static/media/JavaIcon.fdabd4e11f1235e4e8e0.png",
     "static/media/ReactIcon.png": "/static/media/ReactIcon.3e9820dc44ddde88975e.png",
     "static/media/Outlook.png": "/static/media/Outlook.6969915a3cd4a82e4ff0.png",
+    "static/media/GTReviews.png": "/static/media/GTReviews.5d2f1241871861f94316.png",
     "static/media/Therapal.jpg": "/static/media/Therapal.cd222d42fe7750a66ef4.jpg",
     "static/media/Curseforge.png": "/static/media/Curseforge.259e71a88e1a0eb6d09e.png",
     "static/media/CSSIcon.png": "/static/media/CSSIcon.7b2eb4849c1c79b2be14.png",
@@ -23,11 +26,11 @@
     "static/media/JavascriptIcon.png": "/static/media/JavascriptIcon.062825dbceed44567e91.png",
     "static/media/HTMLIcon.png": "/static/media/HTMLIcon.eebc3fbfbde4b2abd9db.png",
     "index.html": "/index.html",
-    "main.11ec6654.css.map": "/static/css/main.11ec6654.css.map",
-    "main.13138d2e.js.map": "/static/js/main.13138d2e.js.map"
+    "main.4bef4b48.css.map": "/static/css/main.4bef4b48.css.map",
+    "main.f0f6eed5.js.map": "/static/js/main.f0f6eed5.js.map"
   },
   "entrypoints": [
-    "static/css/main.11ec6654.css",
-    "static/js/main.13138d2e.js"
+    "static/css/main.4bef4b48.css",
+    "static/js/main.f0f6eed5.js"
   ]
 }
