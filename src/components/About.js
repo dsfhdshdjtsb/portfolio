@@ -19,9 +19,8 @@ export default function About(){
             
             <div className="Content">
                 <h2 id="AboutMe">About me</h2>
-                <p>I am a first year student studying Computer Science. I have a interest
-                in game design, web development, web3, ML, and basically anything related
-                to programming. </p>
+                <p>I am a first year student studying Computer Science at Georgia Tech. I have a interest
+                in game design, web development, and software engineering. </p>
                 
 
                 <h2 id="MySkills">My Skills</h2>
