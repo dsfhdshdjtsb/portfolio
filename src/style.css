@@ -9,13 +9,17 @@ body {
 }
 .Diagonal {
   width: 0;
-  height: 0;
+  
   border-left: 100vw solid transparent;
   border-bottom: 10vw solid #fefaf0;
+  border-radius: 10px;
   margin-top: calc(60vh - 9.9vw);
   position: relative;
   z-index: 1;
   margin-bottom: 0;
+
+
+
 }
 .Loading {
   text-align: center;
@@ -74,7 +78,7 @@ a {
   padding-bottom: 0;
 }
 .Header .Text {
-  margin-left: 15vw;
+  margin-left: 10vw;
 }
 .Header h1 {
   margin-top: 5vh;
@@ -95,9 +99,9 @@ a {
   display: flex;
   justify-content: space-between;
   margin-top: 0;
-  padding-left: 15vw;
-  padding-right: 15vw;
-  width: 70vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  width: 80vw;
   font-size: 1.25rem;
   background-color: #fefaf0; /*#FEFAF0*/
   position: relative;
@@ -230,7 +234,7 @@ a {
   display: flex;
   flex-direction: column;
   position:relative;
-  
+  height: fit-content;
   margin-left: 0vw;;
 }
 .spacerTest {
@@ -241,12 +245,13 @@ a {
 .Projects {
   margin-top: -150px;
   min-height:max-content;
+  height: fit-content;
   position: relative;
   z-index: 3;
   background-color: #fefaf0;
   margin-bottom: 0;
-  padding-left: 15vw;
-  padding-right: 15vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
   bottom: 50px;
 }
 .Projects > h2 {
@@ -297,7 +302,7 @@ a {
 }
 .ProjectSlide {
   /* margin-bottom: 1rem; */
-  width: min(50vw, 1500px);
+  width: min(90%, 1500px);
   transition: 0.3s;
   padding: 1rem;
 
@@ -337,7 +342,8 @@ a {
   right: 0vw;
   z-index: 3;
   float:left;
-  padding: 5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   height: 90vh;
   position:sticky;
   
@@ -345,9 +351,24 @@ a {
 #Frame {
   width: 400px;
   height: 90vh;
-  background-color: #008896;
+  background-color: black;
   border-radius: 15px;
 }
+
+#textWrapper{
+  position:absolute;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  width: 100%;
+  height:100%;
+}
+#textWrapper p {
+  color:#008896;
+  margin: 0;
+}
+
 
 #Frame > img {
   width: 400px;
@@ -356,16 +377,21 @@ a {
   border-radius: 15px;
   position:absolute;
   transition: 0.3s;
-}
-
-#Frame > img:not(#CenchantsImg) {
-  max-height: 0;
-  z-index: 1;
-}
-#CenchantsImg {
-  z-index: 0;
 
 }
+
+#Frame > img {
+  opacity: 0;
+  z-index: 3;
+  
+}
+/* #AabilitesImg {
+  z-index: 4;
+} 
+#GTReviewsImg {
+  z-index: 5;
+} */
+
 /* #Cenchants:hover ~ #Frame {
   background-color: blue;
 
@@ -586,6 +612,9 @@ video {
   }
 }
 @media (max-width: 1050px) {
+  #FrameWrapper {
+    display:none;
+  }
   .ProjectTextWrapper {
     margin-left: 0rem;
   }
@@ -638,7 +667,6 @@ video {
   }
   .Projects {
     width: 80vw;
-    height: 100vh;
   }
   .imageAndSocials {
     bottom: 200px;
