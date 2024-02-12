@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.3217796a.css",
-    "main.js": "/static/js/main.92f1dee8.js",
-    "static/media/CE.gif": "/static/media/CE.7fe6f5ab61da09c783ad.gif",
+    "main.js": "/static/js/main.fefc2e02.js",
     "static/media/AA.gif": "/static/media/AA.43be51725951b402c197.gif",
+    "static/media/CE.gif": "/static/media/CE.d3107c1cd9884812be63.gif",
     "static/media/explodedemo.mp4": "/static/media/explodedemo.5c35688aa4decf893181.mp4",
     "static/media/LifestealDemo.png": "/static/media/LifestealDemo.386cacf038dd5e9f2773.png",
     "static/media/portrait.jpg": "/static/media/portrait.a985c684145723fffaf0.jpg",
@@ -12,7 +12,7 @@
     "static/media/Instagram.png": "/static/media/Instagram.e291349581f33a4f4b3e.png",
     "static/media/Av.png": "/static/media/Av.2fe878242d282eebb864.png",
     "static/media/Av.gif": "/static/media/Av.d69f6eac3f00cf9f2169.gif",
-    "static/media/Resume.pdf": "/static/media/Resume.8c593fe7788a2e1f6083.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.041205364646a17f35da.pdf",
     "static/media/Github.png": "/static/media/Github.4bb497e598c121a691f7.png",
     "static/media/Discord.png": "/static/media/Discord.5a9aea2bb59bd1a2b932.png",
     "static/media/JavaIcon.png": "/static/media/JavaIcon.fdabd4e11f1235e4e8e0.png",
@@ -27,10 +27,10 @@
     "static/media/HTMLIcon.png": "/static/media/HTMLIcon.eebc3fbfbde4b2abd9db.png",
     "index.html": "/index.html",
     "main.3217796a.css.map": "/static/css/main.3217796a.css.map",
-    "main.92f1dee8.js.map": "/static/js/main.92f1dee8.js.map"
+    "main.fefc2e02.js.map": "/static/js/main.fefc2e02.js.map"
   },
   "entrypoints": [
     "static/css/main.3217796a.css",
-    "static/js/main.92f1dee8.js"
+    "static/js/main.fefc2e02.js"
   ]
 }
